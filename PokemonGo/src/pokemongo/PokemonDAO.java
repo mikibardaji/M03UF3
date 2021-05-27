@@ -78,7 +78,7 @@ public class PokemonDAO implements OperacionsBasiques{
             {//resto ele_ordenados, porque cuando
                 //los finales ya estan ordenados 
                 //no quiero que llegue a esas posiciones, se podria hacer sin la resta también
-             System.out.println("comparo posicion" + j + "con la " + (j+1));
+           //  System.out.println("comparo posicion" + j + "con la " + (j+1));
              
                 if(mochila.get(j).getNombrePokemon().compareTo(mochila.get(j+1).getNombrePokemon())>0)
                 {//intercambio valores
