@@ -117,4 +117,10 @@ class Pokemon implements Serializable, Comparable<Pokemon>{
         }
     }
     
+    public void clonarPokemon(Pokemon a_clonar)
+    {
+        this.nombrePokemon = a_clonar.getNombrePokemon();
+        this.CP = a_clonar.getCP();
+    }
+    
 }
